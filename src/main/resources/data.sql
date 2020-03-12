@@ -11,8 +11,8 @@ insert into user(name, sex, height) values ('Jee', 'F', 172);
 
 
 commit;
-/*
-insert into loan(name, limit, interest) values ('VIP', 1000.0, 12.3);
-insert into loan(name, limit, interest) values ('WOW', 1500.0, 10.2);
 
-commit;*/
+insert into loan(name, amt, interest) values ('VIP', 1000, 12.3);
+insert into loan(name, amt, interest) values ('WOW', 1500, 10.2);
+
+commit;

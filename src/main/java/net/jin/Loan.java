@@ -12,9 +12,9 @@ public class Loan {
 	private Long id;
 
 	private String name;
-
-	private Number limit;
-
+	
+	private Long amt; 
+	
 	private Double interest;
 
 	public Long getId() {
@@ -33,12 +33,12 @@ public class Loan {
 		this.name = name;
 	}
 
-	public Number getLimit() {
-		return limit;
+	public Long getAmt() {
+		return amt;
 	}
 
-	public void setLimit(Number limit) {
-		this.limit = limit;
+	public void setAmt(Long amt) {
+		this.amt = amt;
 	}
 
 	public Double getInterest() {
@@ -49,6 +49,5 @@ public class Loan {
 		this.interest = interest;
 	}
 	
-	
-
+		
 }
