@@ -1,4 +1,3 @@
-
 package net.jin;
 
 import javax.persistence.Entity;
@@ -8,14 +7,13 @@ import javax.persistence.Id;
 
 @Entity
 public class Loan {
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
 	private String name;
 
-	private Double limit;
+	private Number limit;
 
 	private Double interest;
 
@@ -35,11 +33,11 @@ public class Loan {
 		this.name = name;
 	}
 
-	public Double getLimit() {
+	public Number getLimit() {
 		return limit;
 	}
 
-	public void setLimit(Double limit) {
+	public void setLimit(Number limit) {
 		this.limit = limit;
 	}
 
@@ -50,5 +48,7 @@ public class Loan {
 	public void setInterest(Double interest) {
 		this.interest = interest;
 	}
+	
+	
 
 }
