@@ -16,3 +16,9 @@ insert into loan(name, amt, interest) values ('VIP', 1000, 12.3);
 insert into loan(name, amt, interest) values ('WOW', 1500, 10.2);
 
 commit;
+
+
+insert into deposit(name, amt, interest) values ('CSB', 10000, 1.3);
+insert into deposit(name, amt, interest) values ('GOOD', 800000000, 4.2);
+
+commit;
