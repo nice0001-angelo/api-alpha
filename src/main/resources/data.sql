@@ -22,3 +22,11 @@ insert into deposit(name, amt, interest) values ('CSB', 10000, 1.3);
 insert into deposit(name, amt, interest) values ('GOOD', 800000000, 4.2);
 
 commit;
+
+
+
+insert into car(name, color, price) values ('Benz', 'Black', 100000000);
+insert into car(name, color, price) values ('Audi', 'White', 80000000);
+
+
+commit;
