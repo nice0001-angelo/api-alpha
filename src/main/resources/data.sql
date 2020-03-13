@@ -30,3 +30,10 @@ insert into car(name, color, price) values ('Audi', 'White', 80000000);
 
 
 commit;
+
+
+insert into food(name, price) values ('Noodle', 8000);
+insert into food(name, price) values ('Rice', 10000);
+
+
+commit;
